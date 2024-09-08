@@ -48,10 +48,12 @@
 									<p>September 2022 - May 2023</p>
 								</header>
 								<div class="image main"><img src="images/amigo-pic-01.jpg" alt="" /></div>
+								<h2>My Introduction to RDT</h2>
 								<p>When I started at NYU Tandon, I knew that I wanted to join a technical extracurricular project. I didn’t have much experience, so I wanted one that would be a challenge. After doing a bit of research, I found that NYU provides Vertically Integrated Projects (VIPs), where students from all years and disciplines come together to work on year-long projects. Of these VIPs, one in particular caught my attention: <a href="https://rdt.engineering.nyu.edu/" target = "_blank">The NYU Robotic Design Team (RDT)</a>. It is a VIP that participates in the <a href="https://www.nasa.gov/learning-resources/lunabotics-challenge/" target = "_blank">NASA Lunabotics Challenge</a>, where NASA invites collegiate teams from across the country to create a rover capable of navigating a simulated Lunar surface, dig through fifty centimeters of sandy lunar regolith, and collect and deposit as much subterranean gravelly regolith into the construction zone in a predetermined time, with an emphasis on autonomy. Teams are given nine months to design, manufacture, and test their robot, after which selected teams are invited to compete at the Kennedy Space Center. This is no easy task, as many teams fail to deposit any gravel at all. NASA provides very broad guidelines, giving teams a great degree of freedom in the physical execution of their robot, and RDT specifically focuses on creating new and innovative designs every year. All this, in addition to the fact that it offered the opportunity to work alongside other engineering disciplines such as software and electrical engineering, made this a very appealing VIP for me.</p>
 								<a href="https://rdt.engineering.nyu.edu/" target = "_blank" class="image left"><img src="images/RDT Logo.png" alt="" /></a>
 								<a href="https://www.nasa.gov/learning-resources/lunabotics-challenge/" target = "_blank" class="gallery"><img src = "images/nasalunabotics.jpg"></a>
 								<p>I applied to be a mechanical engineer during the fall semester of my freshman year and made it in. I was trained to do CAD on Onshape, the software the team uses, and manufacturing work, such as 3D printing, laser cutting, and water jetting. At this point in the process, most of the high level designing was still being done by the Mechanical Leads, with us members being given tasks that would bring that design to life. This included putting screws in the CAD, creating connections for parts in the robot’s chassis, and 3D printing components in the NYU Makerspace. This semester provided me with the groundwork and foundational skills needed for CAD and manufacturing, but because I was both inexperienced and also preoccupied with my semester-long design project, I had not yet been able to participate in actually creating my own part in the robot.</p>
+								<h2>Designing the Deposition Bin</h2>
 								<p>This all changed in the spring semester of my first year, however. I was given the opportunity to design the deposition bin of the robot, an opportunity that I jumped at. To give some background: our robot used a digging drum mechanism to dig through the sandy regolith and excavate the gravelly regolith. The drum had shovels attached on the outside, which would rotate around it and excavate material on the bottom and deposit it from the top into the deposition bin, which would sit at the center. The robot both excavates and deposits material by pivoting the whole assembly, arcing downard to excavate, and then depositing the material into the construction zone by pivoting the whole digging drum assembly up and over the robot. All of this would be ideally completed autonomously. My task was as follows: create a deposition bin that would filter out the sandy regolith while retaining the gravelly regolith, design it so that it would not lose material both while it was digging down, as well as before the pivot arm completed its arc to ensure all material would be deposited in the construction zone, and to incorporate sensors so that the robot would be able to detect the amount of material within the bin.</p>
 								<p>Figuring out how to filter out the sandy regolith was pretty simple. NASA provided us the dimensions of the gravelly regolith, so after that it was just a matter of finding perforated aluminum sheets with holes that were less than those dimensions. That was what the main body of the bin was made out of, with individual panels being cut out using a water jet, and it was held together using 3D printed connectors and screws. Incorporating the sensors was also a relatively simple matter. The electrical team decided to use load cells to measure the weight, so using CAD models of those cells as reference, I designed 3D printed mounts that could be secured to the floor of the bin and gave space to run the necessary wiring up and out of the bin.</p>
 								<div class="image center"><img src="images/mechedepobintransp.png" alt="" /></div>
@@ -75,8 +77,10 @@
 
 								<p>My second solution to this problem was simpler, and made at the behest of my lead. We had started to plan testing of the entire robot, and there was no guarantee that the bearings and shafts would make it on time. As such, my second solution was to alter the geometry of the bin. I expanded the side of the opening that was in the shovel’s direction of rotation to ensure it would catch all the material, while angling the opposite side inward to retain as much material as possible before the arm reached the final point of its deposition arc. Additionally, because the bearings had not arrived yet, I changed the fixed position of the bin so that it would only be oriented upright at the bottom of its arc to further ensure collection of the material. It was a good thing, too, that I made this second solution, because unfortunately, the bearings did not make it in time, so it was this simpler design which ended up going to competition.</p>
 								<div class="image center"><img src="images/mechedepobin.png" alt="" /></div>
+								<h2>Mistakes of a First-Timer</h2>
 								<p>There were, however, hiccups during the design process. This was the first time that I had worked on a project of this scale, and designing a system within a larger whole was certainly a learning experience; things like ensuring that my design didn’t interfere with existing parts and figuring out how to connect it to the bigger system simply hadn’t occurred to me before. This was also the first time that I had made something complex meant to be manufactured, as the only prior experience I had similar to this was working on my Better Vision Glasses, where I only needed to make a simple frame for glasses that held electrical components. It was in RDT where I first learned that when you design a part, you actually have to make it so that you can build it in the real world (and I learned this quickly; making a design where you physically cannot fit a screwdriver in to fasten a screw does that to a person), and that ease of manufacturing matters a lot when it comes to creating a design.</p>
 								<div class="image center"><img src="images/mechedepobinirl.jpg" alt="" /></div>
+								<h2><br />The End of My First Year</h2>
 								<p>Overall, my design of the deposition bin was successful and completed its task, and I expanded on my CAD and manufacturing skills, learned the importance of making a design manufacturable, and gained experience in working on a subsystem within a complex project. All together, I’m happy to say that I did my small part in our creation of a successful robot, which won second place for the most innovative student-led project in <a href="https://engineering.nyu.edu/events/2023/04/28/2023-tandon-research-excellence-exhibit" target = "_blank">the NYU Tandon Research Expo</a>, to the point where Andrew Hamilton, the Dean of NYU, came to the team to learn more about it.</p>
 								<a href="https://engineering.nyu.edu/events/2023/04/28/2023-tandon-research-excellence-exhibit" target = "_blank" class="image left"><img src="images/mechevipfair2022.png" alt="" /></a><a href="https://engineering.nyu.edu/events/2023/04/28/2023-tandon-research-excellence-exhibit" target = "_blank" class="image right"><img src="images/mechevipfair2022v2.png" alt="" /></a>
 								<p>Below you can find the <a href="https://www.youtube.com/watch?v=wAa1_QJDXBM" target = "_blank">Proof-of-Life video</a> we sent to NASA, successfully demonstrating full functionality of the robot and all of its subsystems.</p>
@@ -112,25 +116,26 @@
 									</article>
 								<article>
 									<header>
-										<h2><a href="rdt-team-lead.html">Robotic Design Team <br />Team Lead
+										<header>
+										<h2><a href="rdt-team-lead.html">RDT Team Lead
 										</a></h2>
 									</header>
 								</article>
 								<article>
 									<header>
-										<h2><a href="rdt-se.html">Robotic Design Team Systems Engineer
+										<h2><a href="rdt-se.html">RDT Systems Engineer
 										</a></h2>
 									</header>
 									</article>
 								<article>
 									<header>
-										<h2><a href="rdt-mechanical-design-lead.html">Robotic Design Team Mechanical Design Lead
+										<h2><a href="rdt-mechanical-design-lead.html">RDT Mechanical Design Lead
 										</a></h2>
 									</header>
 								</article>
 								<article>
 									<header>
-										<h2><a href="rdt-meche.html">Robotic Design Team Mechanical Engineer
+										<h2><a href="rdt-meche.html">RDT Mechanical Engineer
 										</a></h2>
 									</header>
 								</article>
